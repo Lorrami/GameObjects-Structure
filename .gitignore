@@ -4,6 +4,7 @@
 .clang
 .clangd
 .cache
+.gitattributes
 
 cmake-build-debug*
 cmake-build-release*
