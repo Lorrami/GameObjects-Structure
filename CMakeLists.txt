@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(ENGINE_SOURCES
         "main.cpp"
-        "Application.cpp")
+        "Application.cpp" RectangleShape.cpp RectangleShape.hpp)
 
 add_executable(Shooter ${ENGINE_SOURCES})
