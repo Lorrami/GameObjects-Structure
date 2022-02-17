@@ -3,4 +3,8 @@ project(GameObjects_Structure)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GameObjects_Structure main.cpp)
+set(ENGINE_SOURCES
+        "main.cpp"
+        )
+
+add_executable(Shooter ${ENGINE_SOURCES})
