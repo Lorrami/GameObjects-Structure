@@ -1,11 +1,12 @@
 #pragma once
 
 #include "Packages/Vector2f.hpp"
+#include "Shapes/RectangleShape.hpp"
 
 class Application
 {
 private:
-    Vector2f Vector = {30.0f};
+    RectangleShape Rect;
     Application() = default;
 public:
     static Application *s_Instance;

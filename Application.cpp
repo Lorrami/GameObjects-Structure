@@ -10,8 +10,11 @@ Application& Application::Get()
     return *s_Instance;
 }
 
-
 void Application::Run()
 {
-    std::cout << Vector.x;
+    Rect.FillColor = Red;
+    Rect.Position = {30.0f, 30.0f};
+    Rect.Origin = {Rect.Size.x/2};
+    Rect.Rotation = 30;
+    Rect.FindIntersection(&Rect);
 }
