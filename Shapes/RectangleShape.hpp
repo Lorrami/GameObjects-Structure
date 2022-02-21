@@ -9,12 +9,14 @@ struct RectangleShape
     Color FillColor;
     Vector2f Size;
     Vector2f Origin;
-    float Rotation = 0;
+    float Rotation;
 
     bool IsCrashed = false;
 
     template<typename T>
     void FindIntersection(T *Object);
+
+    RectangleShape();
 };
 
 template<typename T>
