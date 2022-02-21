@@ -6,7 +6,7 @@ private:
     int x;
     Application() = default;
 public:
-    static Application s_Instance;
+    static Application *s_Instance;
 
     static Application &Get();
 

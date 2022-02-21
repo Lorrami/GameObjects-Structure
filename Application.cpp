@@ -1,11 +1,13 @@
 #include "Application.hpp"
 #include <iostream>
 
-Application Application::s_Instance;
+Application *Application::s_Instance;
 
 Application& Application::Get()
 {
-    return s_Instance;
+    if (s_Instance == nullptr)
+        s_Instance = new Application();
+    return *s_Instance;
 }
 
 
