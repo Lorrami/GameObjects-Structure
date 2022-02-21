@@ -13,5 +13,6 @@ struct LineShape
 
     bool IsCrashed = false;
 
-    void FindIntersection(LineShape *Object);
+    template<typename T>
+    void FindIntersection(T *Object);
 };
