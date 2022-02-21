@@ -1,6 +1,7 @@
 #include "CircleShape.hpp"
 
-void CircleShape::FindIntersection(CircleShape *Object)
+template<typename T>
+void CircleShape::FindIntersection(T *Object)
 {
     if (this->Position.x + this->Origin.x > Object->Position.x - Object->Origin.x
         && this->Position.y + this->Origin.y > Object->Position.y - Object->Origin.y

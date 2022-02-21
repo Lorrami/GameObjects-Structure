@@ -13,5 +13,6 @@ struct CircleShape
 
     bool IsCrashed = false;
 
-    void FindIntersection(CircleShape *Object);
+    template <typename T>
+    void FindIntersection(T *Object);
 };
