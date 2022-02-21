@@ -11,7 +11,7 @@ class Application
 private:
     Application() = default;
 public:
-    RectangleShape Rect;
+    RectangleShape Rect{Vector2f(60.0f, 60.0f), Color::Red};
     CircleShape Circle;
     LineShape Line;
 
