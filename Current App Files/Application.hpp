@@ -1,9 +1,9 @@
 #pragma once
 
-#include "../IKS Engine/Packages/Vector2f.hpp"
-#include "../IKS Engine/Shapes/RectangleShape.hpp"
-#include "../IKS Engine/Shapes/CircleShape.hpp"
-#include "../IKS Engine/Shapes/LineShape.hpp"
+#include "../IKS/Packages/Vector2f.hpp"
+#include "../IKS/Shapes/RectangleShape.hpp"
+#include "../IKS/Shapes/CircleShape.hpp"
+#include "../IKS/Shapes/LineShape.hpp"
 
 class Application
 {
