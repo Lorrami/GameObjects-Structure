@@ -12,7 +12,6 @@ struct DefaultShape
     float Rotation;
 
     bool IsCrashed = false;
-
     void FindIntersection(DefaultShape *Object);
 
     DefaultShape();

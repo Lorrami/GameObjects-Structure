@@ -17,4 +17,14 @@ void Application::Run()
     Rect.Origin = {Rect.Size.x/2};
     Rect.Rotation = 30;
     Rect.FindIntersection(&Rect);
+
+    Circle.FillColor = Yellow;
+    Circle.Position = {10.0f, 70.0f};
+    Circle.Origin = {Rect.Size.x/2};
+    Circle.Rotation = 10;
+    Circle.FindIntersection(&Rect);
+
+    std::cout << Rect.Position.x << std::endl;
+    std::cout << Circle.Position.x << std::endl;
+    std::cout << Line.Position.x << std::endl;
 }
