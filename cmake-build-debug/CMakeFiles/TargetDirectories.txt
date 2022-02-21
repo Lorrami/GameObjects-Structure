@@ -1,0 +1,3 @@
+C:/Users/wwwro/Desktop/Projects/IKS/cmake-build-debug/CMakeFiles/Shooter.dir
+C:/Users/wwwro/Desktop/Projects/IKS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/wwwro/Desktop/Projects/IKS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

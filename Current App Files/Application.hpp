@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Packages/Vector2f.hpp"
-#include "Shapes/RectangleShape.hpp"
+#include "../Packages/Vector2f.hpp"
+#include "../Shapes/RectangleShape.hpp"
 
 class Application
 {
