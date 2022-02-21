@@ -4,9 +4,13 @@ enum class Color
 {
     Red,
     Blue,
+    Green,
     White,
     Black,
     Gray,
-    Yellow
+    Yellow,
+    Pink,
+    Purple,
+    Turquoise
 };
 
