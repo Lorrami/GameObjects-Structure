@@ -1,0 +1,14 @@
+//
+// Created by wwwro on 2/21/2022.
+//
+
+#ifndef GAMEOBJECTS_STRUCTURE_DEFAULTSHAPE_H
+#define GAMEOBJECTS_STRUCTURE_DEFAULTSHAPE_H
+
+
+class DefaultShape {
+
+};
+
+
+#endif //GAMEOBJECTS_STRUCTURE_DEFAULTSHAPE_H

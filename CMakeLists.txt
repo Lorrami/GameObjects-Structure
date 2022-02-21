@@ -7,6 +7,7 @@ set(ENGINE_SOURCES
         "Current App Files/main.cpp"
         "Current App Files/Application.cpp"
         "IKS Engine/Window/RenderWindow.cpp"
+        "IKS Engine/Shapes/DefaultShape.cpp"
         "IKS Engine/Shapes/RectangleShape.cpp"
         "IKS Engine/Shapes/LineShape.cpp"
         "IKS Engine/Shapes/CircleShape.cpp"
