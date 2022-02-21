@@ -5,10 +5,10 @@
 
 struct DefaultShape
 {
-    Vector2f Position{};
+    Vector2f Position;
     Color FillColor;
-    Vector2f Size{};
-    Vector2f Origin{};
+    Vector2f Size;
+    Vector2f Origin;
     float Rotation;
 
     bool IsCrashed = false;

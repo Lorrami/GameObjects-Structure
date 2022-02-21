@@ -3,7 +3,7 @@
 DefaultShape::DefaultShape()
 {
     Position = {30.0f};
-    Size = {30.0f};
+    Size = {30.0};
     Rotation = 0;
     FillColor = White;
 }
