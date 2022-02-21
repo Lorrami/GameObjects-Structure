@@ -3,9 +3,10 @@
 DefaultShape::DefaultShape()
 {
     Position = {30.0f};
-    Size = {30.0};
+    Size = {30.0f};
     Rotation = 0;
-    FillColor = White;
+    Origin = {0.0f};
+    FillColor = Color::White;
 }
 void DefaultShape::FindIntersection(DefaultShape *Object)
 {

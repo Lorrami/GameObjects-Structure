@@ -12,13 +12,13 @@ Application& Application::Get()
 
 void Application::Run()
 {
-    Rect.FillColor = Red;
+    Rect.FillColor = Color::Red;
     Rect.Position = {30.0f, 30.0f};
     Rect.Origin = {Rect.Size.x/2};
     Rect.Rotation = 30;
     Rect.FindIntersection(&Rect);
 
-    Circle.FillColor = Yellow;
+    Circle.FillColor = Color::Yellow;
     Circle.Position = {10.0f, 70.0f};
     Circle.Origin = {Rect.Size.x/2};
     Circle.Rotation = 10;
