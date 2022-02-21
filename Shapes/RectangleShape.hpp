@@ -2,8 +2,6 @@
 
 #include "../Packages/Vector2f.hpp"
 #include "../Packages/Color.hpp"
-#include "CircleShape.hpp"
-#include "LineShape.hpp"
 
 struct RectangleShape
 {
@@ -16,6 +14,4 @@ struct RectangleShape
     bool IsCrashed = false;
 
     void FindIntersection(RectangleShape *Object);
-    void FindIntersection(CircleShape *Object);
-    void FindIntersection(LineShape *Object);
 };
