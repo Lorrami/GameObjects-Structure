@@ -5,22 +5,11 @@
 
 struct RenderWindow
 {
-    Vector2f VideoMode{};
-    Vector2f Position{};
+    Vector2f VideoMode;
+    Vector2f Position;
     Color FillBackground;
 
-    RenderWindow();
-
-    explicit RenderWindow(Vector2f VideoMode) : RenderWindow()
-    {
-        this->VideoMode = VideoMode;
-    }
-    explicit RenderWindow(Vector2f VideoMode, Vector2f Position) : RenderWindow()
-    {
-        this->VideoMode = VideoMode;
-        this->Position = Position;
-    }
-    explicit RenderWindow(Vector2f VideoMode, Vector2f Position, Color FillBackground) : RenderWindow()
+    RenderWindow(Vector2f VideoMode = Vector2f(1280.0f, 720.0f), Vector2f Position = Vector2f(30.0f, 30.0f), Color FillBackground = Red)
     {
         this->VideoMode = VideoMode;
         this->Position = Position;
