@@ -7,6 +7,7 @@ set(ENGINE_SOURCES
         "main.cpp"
         "Application.cpp"
         "Shapes/RectangleShape.cpp"
+        "Shapes/LineShape.cpp"
         "Shapes/CircleShape.cpp"
         "Packages/Vector2f.cpp"
         "Packages/Color.cpp"

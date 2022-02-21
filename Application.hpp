@@ -4,6 +4,7 @@ class Application
 {
 private:
     int x;
+    Application() = default;
 public:
     static Application s_Instance;
 
