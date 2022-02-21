@@ -1,14 +1,9 @@
 #include "CircleShape.hpp"
 
-template<typename T>
-void CircleShape::FindIntersection(T *Object)
+CircleShape::CircleShape()
 {
-    if (this->Position.x + this->Origin.x > Object->Position.x - Object->Origin.x
-        && this->Position.y + this->Origin.y > Object->Position.y - Object->Origin.y
-
-        && this->Position.x - this->Origin.x < Object->Position.x + Object->Origin.x
-        && this->Position.y - this->Origin.y < Object->Position.y + Object->Origin.y)
-    {
-        this->IsCrashed = true;
-    }
+    Position = {30.0f};
+    Size = {30.0f};
+    Rotation = 0;
+    FillColor = White;
 }
