@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(ENGINE_SOURCES
         "main.cpp"
         "Application.cpp"
+        "Window/RenderWindow.cpp"
         "Shapes/RectangleShape.cpp"
         "Shapes/LineShape.cpp"
         "Shapes/CircleShape.cpp"
