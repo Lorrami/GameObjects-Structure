@@ -27,4 +27,6 @@ void Application::Run()
     std::cout << Rect.Position.x << std::endl;
     std::cout << Circle.Position.x << std::endl;
     std::cout << Line.Position.x << std::endl;
+    std::cout << Window.VideoMode.x << std::endl;
+    std::cout << Window1.VideoMode.x << std::endl;
 }
