@@ -2,6 +2,8 @@
 
 #include "../Packages/Vector2f.hpp"
 #include "../Packages/Color.hpp"
+#include "RectangleShape.hpp"
+#include "LineShape.hpp"
 
 struct CircleShape
 {
@@ -12,5 +14,8 @@ struct CircleShape
     float Rotation = 0;
 
     bool IsCrashed = false;
-    void FindIntersection(GameObject *Object);
+
+    void FindIntersection(CircleShape *Object);
+    void FindIntersection(RectangleShape *Object);
+    void FindIntersection(LineShape *Object);
 };
