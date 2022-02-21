@@ -6,9 +6,9 @@
 class Application
 {
 private:
-    RectangleShape Rect;
     Application() = default;
 public:
+    RectangleShape Rect;
     static Application *s_Instance;
     static Application &Get();
     void Run();

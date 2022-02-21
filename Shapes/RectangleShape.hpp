@@ -14,5 +14,5 @@ struct RectangleShape
     bool IsCrashed = false;
 
     template<typename T>
-    void FindIntersection(T *Object);
+    void FindIntersection(T& Object);
 };
