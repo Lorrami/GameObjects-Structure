@@ -1,10 +1,9 @@
-../.idea
+.idea
 .vs
 .vscode
 .clang
 .clangd
 .cache
-Current App Files/.gitattributes
 
 cmake-build-debug*
 cmake-build-release*
