@@ -1,6 +1,7 @@
 #pragma once
 
-#include "Packages/Vector2f.hpp"
+#include "../Packages/Vector2f.hpp"
+#include "../Packages/Color.hpp"
 
 struct RectangleShape
 {

@@ -1,5 +1,6 @@
-class Vector2f
+struct Vector2f
 {
-
+    float x;
+    float y;
 };
 

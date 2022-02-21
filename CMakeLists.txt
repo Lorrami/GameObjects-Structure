@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(ENGINE_SOURCES
         "main.cpp"
         "Application.cpp"
-        "RectangleShape.cpp"
+        "Shapes/RectangleShape.cpp"
         "Packages/Vector2f.cpp"
         "Packages/Color.cpp"
         )
