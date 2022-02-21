@@ -12,5 +12,5 @@ struct RectangleShape
     float Rotation = 0;
 
     bool IsCrashed = false;
-    void FindIntersection(RectangleShape *Object);
+    void FindIntersection(GameObject *Object);
 };
