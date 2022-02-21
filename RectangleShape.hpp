@@ -1,10 +1,10 @@
 #pragma once
 
-#include <iostream>
+#include "Packages/Vector2f.hpp"
 
 struct RectangleShape
 {
-    std::Vector2f Position;
+    Vector2f Position;
     Color FillColor;
     Vector2f Size;
     Vector2f Origin;

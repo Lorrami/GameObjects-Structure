@@ -7,6 +7,8 @@ set(ENGINE_SOURCES
         "main.cpp"
         "Application.cpp"
         "RectangleShape.cpp"
+        "Packages/Vector2f.cpp"
+        "Packages/Color.cpp"
         )
 
 add_executable(Shooter ${ENGINE_SOURCES})
