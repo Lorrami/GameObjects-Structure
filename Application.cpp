@@ -13,5 +13,5 @@ Application& Application::Get()
 
 void Application::Run()
 {
-    std::cout << "Chlen";
+    std::cout << Vector.x;
 }
