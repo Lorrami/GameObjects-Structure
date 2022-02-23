@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(GameObjects_Structure)
+project(IKS)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -15,4 +15,4 @@ set(ENGINE_SOURCES
         "IKS/Packages/Color.cpp"
         )
 
-add_executable(Shooter ${ENGINE_SOURCES})
+add_executable(IKS ${ENGINE_SOURCES})
