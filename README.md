@@ -1,1 +1,1 @@
-IKS is my first attempt to create something like a game engine
+IKS is my first attempt to create something like a game engine :)
