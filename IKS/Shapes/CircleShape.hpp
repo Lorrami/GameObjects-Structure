@@ -7,7 +7,7 @@
 
 struct CircleShape : public DefaultShape
 {
-	CircleShape(Vector2f Position = { 30.0f }, Color FillColor = Color::White, Vector2f Size = { 30.0f }, Vector2f Origin = { 0.0f }, float Rotation = 0)
+	explicit CircleShape(Vector2f Position = { 30.0f }, Color FillColor = Color::White, Vector2f Size = { 30.0f }, Vector2f Origin = { 0.0f }, float Rotation = 0)
 	{
 		this->Position = Position;
 		this->FillColor = FillColor;
