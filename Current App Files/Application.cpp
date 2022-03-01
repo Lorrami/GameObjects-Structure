@@ -12,19 +12,9 @@ Application& Application::Get()
 
 void Application::Run()
 {
-    Rect.FillColor = Color::Red;
-    Rect.Origin = {Rect.Size.x/2};
-    Rect.FindIntersection(&Rect);
-
-    Circle.FillColor = Color::Yellow;
-    Circle.Position = {10.0f, 70.0f};
-    Circle.Origin = {Rect.Size.x/2};
-    Circle.Rotation = 10;
-    Circle.FindIntersection(&Rect);
-
-    std::cout << Rect.Position.x << std::endl;
-    std::cout << Circle.Position.x << std::endl;
-    std::cout << Line.Position.x << std::endl;
-    std::cout << Window.VideoMode.x << std::endl;
-    std::cout << Window1.VideoMode.x << std::endl;
+    Objects.push_back(new GameObject());
+    for (GameObject* Obj: Objects)
+    {
+        std::cout << Obj->Size.x << " " << Obj->Size.y;
+    }
 }
