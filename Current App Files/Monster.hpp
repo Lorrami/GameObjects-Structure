@@ -6,5 +6,6 @@ class Monster : public GameObject
 {
 public:
     Monster();
+    void Update() override;
 };
 

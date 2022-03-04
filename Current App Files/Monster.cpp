@@ -1,3 +1,4 @@
+#include <iostream>
 #include "Monster.hpp"
 
 Monster::Monster()
@@ -6,4 +7,8 @@ Monster::Monster()
     Size = 1.0f;
     FillColor = Color::Yellow;
     Rotation = 30;
+}
+
+void Monster::Update() {
+    std::cout << "Monster" << std::endl;
 }
