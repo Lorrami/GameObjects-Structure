@@ -8,6 +8,7 @@ set(ENGINE_SOURCES
         "Current App Files/Application.cpp"
         "Current App Files/GameObject.cpp"
         "Current App Files/Player.cpp"
+        "Current App Files/Monster.cpp"
         "IKS/Window/RenderWindow.cpp"
         "IKS/Shapes/DefaultShape.cpp"
         "IKS/Shapes/RectangleShape.cpp"
