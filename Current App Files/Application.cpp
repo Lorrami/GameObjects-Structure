@@ -1,5 +1,6 @@
 #include "Application.hpp"
 #include "Player.hpp"
+#include "Monster.hpp"
 #include <iostream>
 
 Application *Application::s_Instance;
@@ -14,6 +15,7 @@ Application& Application::Get()
 void Application::Run()
 {
     Objects.push_back(new Player());
+    Objects.push_back(new Monster());
     for (GameObject* Obj: Objects)
     {
         Obj->Update();
