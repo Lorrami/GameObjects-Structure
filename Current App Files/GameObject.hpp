@@ -4,5 +4,6 @@
 
 class GameObject : public RectangleShape
 {
+public:
     virtual void Update();
 };
