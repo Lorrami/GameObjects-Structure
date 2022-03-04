@@ -1,4 +1,5 @@
 #include "Application.hpp"
+#include "Player.hpp"
 #include <iostream>
 
 Application *Application::s_Instance;
@@ -12,9 +13,9 @@ Application& Application::Get()
 
 void Application::Run()
 {
-    Objects.push_back(new GameObject());
+    Objects.push_back(new Player());
     for (GameObject* Obj: Objects)
     {
-        std::cout << Obj->Size.x << " " << Obj->Size.y;
+        Obj->Update();
     }
 }
