@@ -1,8 +1,8 @@
 #pragma once
 
-#include "../IKS/Shapes/RectangleShape.hpp"
+#include "GameObject.hpp"
 
-class Player : public RectangleShape
+class Player : public GameObject
 {
 public:
     Player();
