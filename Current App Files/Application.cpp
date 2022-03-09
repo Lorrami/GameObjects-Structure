@@ -1,7 +1,6 @@
 #include "Application.hpp"
 #include "Player.hpp"
 #include "Monster.hpp"
-#include <iostream>
 
 Application *Application::s_Instance;
 
